@@ -9,6 +9,12 @@
 
 class Robot:
 
+    """
+    [Robot Class]
+    Author : 송진영
+    Role : blahblah
+    """
+
     population = 0
 
     def __init__(self, name, code):
@@ -35,9 +41,27 @@ class Robot:
     def how_many(cls):
         print(f"We have {cls.population} robots.")
 
+    @staticmethod
+    def this_is_robot_class():
+        print("yes!!")
 
+
+siri = Robot("siri", 301341351)
 jarvis = Robot("jarvis", 2324212127)
 bixby = Robot("bixby", 12418083)
 bixby2 = Robot("bixby2", 12418083)
 
 print(Robot.__dict__)
+print(siri.__dict__)
+print(jarvis.__dict__)
+
+print(siri.population)
+siri.how_many()
+
+print(dir(siri))
+print(dir(Robot))
+print(Robot.__doc__)
+print(siri.__class__)
+
+print(Robot.this_is_robot_class())
+print(jarvis.this_is_robot_class())
