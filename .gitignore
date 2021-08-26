@@ -1,5 +1,7 @@
 settings.json
 
+
+customer_analysis/online_ad_click_predict/rawdata
 dacon/rawdata/
 # Byte-compiled / optimized / DLL files
 __pycache__/
