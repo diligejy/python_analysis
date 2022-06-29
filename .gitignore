@@ -2,6 +2,7 @@ settings.json
 
 
 customer_analysis/online_ad_click_predict/rawdata
+ds_practical_note/ch1/results
 dacon/rawdata/
 **/rawdata/
 # Byte-compiled / optimized / DLL files
