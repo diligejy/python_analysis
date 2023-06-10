@@ -1,0 +1,1 @@
+[RFM Analysis Tutorial In Pandas: Simple Customer Segmentation Analysis](https://youtu.be/9wxWrERZvss)
